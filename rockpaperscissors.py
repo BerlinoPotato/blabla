@@ -2,7 +2,7 @@ import random
 
 
 def play():
-    user = input('R for Rock, P for paper, S for scissors').lower()
+    user = input('R for Rock, P for paper, S for scissors\n').lower()
     computer = random.choice(['r', 'p', 's'])
     
     if user == computer:
